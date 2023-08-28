@@ -24,8 +24,8 @@ const Values = () => {
             driven by our purpose, and are a proud B Corp.
           </p>
           <p>
-            We aren’t fans of greenwashing, stunts and empty promises – and
-            we’re determined to make a difference with you.
+            We aren at fans of greenwashing, stunts and empty promises  and
+            we are determined to make a difference with you.
           </p>
 
           <h3>Our Mission</h3>
@@ -44,7 +44,7 @@ const Values = () => {
           <p>
             We can work as part of your team wherever you are in the world. We
             collaborate alongside you as colleagues, rather than at arms length
-            – and we’re there when you need us.
+            – and we are there when you need us.
           </p>
 
           <h3>Our Values</h3>

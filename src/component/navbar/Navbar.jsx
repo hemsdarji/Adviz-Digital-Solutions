@@ -4,7 +4,7 @@ import "./navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary ">
+    <nav className="navbar navbar-expand-lg  ">
   <div className="container-fluid ">
     <a className="navbar-brand" href="#">ADVIZ</a>
       <ul className="navbar-nav column gap-3 ">

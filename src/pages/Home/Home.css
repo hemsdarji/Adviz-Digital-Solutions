@@ -1,27 +1,133 @@
 .hero{
-    background-color: blue;
-    height: 90vh;
+background-color: black;
+color: aliceblue;
+    min-height: 90vh;
     width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 140px;
 }
-.right-div{
-    height: 90vh;
+
+.left-div{
     width: 50%;
-    background-color: brown;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    font-size: 18px;
-    margin-bottom: 30px;
+       gap: 24px;  
 }
 
-
-.left-div{
-    height: 90vh;
+.right-div{
     width: 50%;
-    background-color: rgb(78, 57, 57);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+.custom-shape-divider-bottom-1693225745 {
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+@media (max-width: 768px) {
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+          padding-bottom: 0px;
+    }
+    .left-div{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        padding-top: 6vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .right-div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 48px;
+    }
+    .custom-shape-divider-bottom-1693225745 {
+      position: inherit;
+    }
+  }
+
+/* divider */
+
+.custom-shape-divider-bottom-1693225745 svg {
+    position: relative;
+    display: block;
+    width: calc(118% + 1.3px);
+    height: 121px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1693225745 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* business section */
+
+.services-section{
+    padding: 6rem 0 3rem 0!important;
+}
+
+.business-section{
+    padding-top: 3rem;
+}
+
+.btn-primary{
+    background: #1089ff;
+    border: none;
+    outline: none;
+}
+
+.para-width{
+    width: 55ch;
+}
+
+.text-grey{
+    color:#00000080;
+}
+
+.text-light-grey{
+    color:var(--bs-primary-color);
+}
+
+.card-title{
+    font-weight: 500;
+    letter-spacing: .05rem;
+}
+
+.common-heading{
+    font-size: 2.8rem;
+    font-weight: 500;
+    letter-spacing: 0.01rem!important;
+}
+
+.common-title {
+    margin-bottom: 4.2rem;
+}
+
+.card-box:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+
+

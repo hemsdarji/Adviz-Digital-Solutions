@@ -1,11 +1,9 @@
-/* Navbar.css */
-/* Adviz-Digital-Solutions/src/component/navbar/navbar.css */
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--body-tertiary-color); /* Update this with your color value */
+  background-color: var(--body-tertiary-color); 
   padding: 1rem;
   padding-left: 5rem;
   padding-right: 5rem;
@@ -14,12 +12,15 @@
 .navbar-brand {
   font-weight: bold;
   font-size: 1.5rem;
-  color: var(--navbar-brand-color); /* Update this with your color value */
+  color: var(--navbar-brand-color); 
   text-decoration: none;
 }
 
 .navbar-nav {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   gap: 1rem;
   list-style: none;
 }
@@ -34,10 +35,18 @@
 .nav-item a {
   font-size: 1.2rem;
   text-decoration: none;
-  color: var(--nav-link-color); /* Update this with your color value */
+  color: var(--nav-link-color); 
 }
 
-/* Add more styles as needed */
+@media (max-width: 768px) {
+
+    .navbar-nav {
+      display: none;
+   
+    }
+  }
+
+
 
   
   
