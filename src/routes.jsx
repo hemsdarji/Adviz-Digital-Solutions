@@ -4,12 +4,12 @@ import Navbar from "./component/navbar/Navbar";
 import Footer from "./component/Footer";
 import Contact from "./pages/Contact/Contact";
 import Home from "./pages/Home/Home";
-import Team from "./pages/aboutus/Team/Team";
-import Values from "./pages/aboutus/values/Values";
-import BCorp from "./pages/aboutus/B-Corp/BCorp";
 import PortFolio from "./pages/PortFolio/PortFolio";
 import Testimonials from "./pages/Testimonials/Testimonials";
 import Services from "./pages/Services/Services";
+import Team from "./pages/Team/Team";
+import Values from "./pages/values/Values";
+import BCorp from "./pages/B-Corp/BCorp";
 
 
 const Layout = () => {
