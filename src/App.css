@@ -13,7 +13,61 @@
     --secondary-color: #29a9fd;
     --bs-supporting-color: #C850C0;
 }
-body, h1, h2, h3, p, ul, li {
+
+h1, h2,h3,h4,h5{
+    font-family: 'Lexend Deca', sans-serif;
+    color: var( --bs-dark-color);
+}
+
+h1{
+    font-size: 3.8rem;
+}
+
+h2{
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 3.4rem;
+}
+
+p{
     margin: 0;
-    padding: 0;
-  }
+    font-weight: 400;
+    font-size: 1rem;
+    color: var( --bs-dark-color);
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bg-main{
+    height: 80vh;
+    position: relative;
+}
+
+.bg-color{
+    background-color: var(--bs-dark-primary);
+}
+
+.bg-theme{
+
+    color: var( --bs-supporting-color);
+    background-image: none!important;
+}
+
+.fa-star{
+    color: var( --bs-supporting-color);
+}
+
+.nav-link{
+    color: var(--bs-main-color)!important;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: var(--secondary-color) !important;
+}

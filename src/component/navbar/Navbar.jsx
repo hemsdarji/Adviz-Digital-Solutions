@@ -11,17 +11,24 @@ const Navbar = () => {
         <li className="nav-item">
         <Link to="/">Home</Link>
         </li>
+        <li className="nav-item dropdown">
+  <Link to="/" className="nav-link dropdown-toggle" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    About Us
+  </Link>
+  <ul className="dropdown-menu" aria-labelledby="aboutDropdown">
+    <li><Link to="/Team" className="dropdown-item">Team</Link></li>
+    <li><Link to="/Values" className="dropdown-item">Values</Link></li>
+    <li><Link to="/BCorp " className="dropdown-item">B Corp</Link></li>
+  </ul>
+</li>
         <li className="nav-item">
-          <Link to="/">about Us</Link>
+          <Link to="/Services">Sevices</Link>
         </li>
         <li className="nav-item">
-          <Link to="/">Sevices</Link>
+          <Link to="/PortFolio">Portfolio</Link>
         </li>
         <li className="nav-item">
-          <Link to="/">Portfolio</Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/">Testimonials</Link>
+          <Link to="/Testimonials">Testimonials</Link>
         </li>
         <li className="nav-item">
           <Link to="/Contact">Contact</Link>

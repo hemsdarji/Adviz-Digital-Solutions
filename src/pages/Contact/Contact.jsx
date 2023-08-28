@@ -3,16 +3,16 @@ import "./Contact.css";
 
 const Contact= () => {
   return (
-    <section className="hero">
-    <form class="contact-form">
+    <section className="hero-contact">
+    <form className="contact-form">
       <h2>Contact Us</h2>
-      <div class="form-group">
+      <div className="form-group">
         <input type="text" id="name" placeholder="Name" required />
       </div>
-      <div class="form-group">
+      <div className="form-group">
         <input type="email" id="email" placeholder="Email" required />
       </div>
-      <div class="form-group">
+      <div className="form-group">
         <input type="tel" id="phone" placeholder="Phone Number" required />
       </div>
      < div className="form-group">

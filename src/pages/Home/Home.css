@@ -1,0 +1,27 @@
+.hero{
+    background-color: blue;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+}
+.right-div{
+    height: 90vh;
+    width: 50%;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+.left-div{
+    height: 90vh;
+    width: 50%;
+    background-color: rgb(78, 57, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
