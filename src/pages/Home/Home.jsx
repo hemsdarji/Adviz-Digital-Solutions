@@ -50,10 +50,10 @@ const Home = () => {
       </div>
     </section>
     
-<section class=" services-section">
-    <div class="container text-center common-title fw-bold">
-        <h2 class="common-heading">What We Will Do For <br /> Your Business</h2>
-        <hr class="w-25 mx-auto " />
+<section className=" services-section">
+    <div className="container text-center common-title fw-bold">
+        <h2 className="common-heading">What We Will Do For <br /> Your Business</h2>
+        <hr className="w-25 mx-auto " />
     </div>
 
     <div className="container mt-10">
@@ -72,6 +72,37 @@ const Home = () => {
     </div>
 \
 
+</section>
+
+<section class="carousel">
+<div className="container text-center common-title fw-bold">
+        <h2 className="common-heading">"Visible Successes"
+</h2>
+        <hr className="w-25 mx-auto " />
+    </div>
+  <div className="inside-div">
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/result2.jpg" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="/img/result2.jpg" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="/img/result2.jpg" class="d-block w-100" alt="..." />
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div>
 </section>
 
 

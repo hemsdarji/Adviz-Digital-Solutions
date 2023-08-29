@@ -1,0 +1,26 @@
+.service-section{
+    margin-top: 10vh;
+    width: 100% ;
+}
+.main-s{
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+}
+
+.left-s{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+       gap: 24px;  
+}
+
+.right-s{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

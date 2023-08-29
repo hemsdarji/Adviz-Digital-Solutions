@@ -1,0 +1,22 @@
+.services-section h5{
+   padding-top: 3vh;
+}
+.img-div{
+    min-height: 30vh;
+    width: 100%;
+    padding-bottom: 10vh;
+}
+.img-div img{
+   height: 30vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

@@ -7,7 +7,7 @@ const Team = () => {
 
       <div className="row">
       
-        <div className="col-md-4 mb-4">
+        <div className="col-md-12 mb-12">
           <div className="card">
             <div className="card-body">
               <h5 className="card-title">Hems darji</h5>
@@ -15,6 +15,9 @@ const Team = () => {
               <a href="#" className="btn btn-primary">
                 View Bio
               </a>
+            </div>
+            <div className='card-img'>
+              <img src='./img/img.jpg' alt='owner img ' />
             </div>
           </div>
         </div>
