@@ -4,6 +4,11 @@ import "./Contact.css";
 const Contact= () => {
   return (
     <section className="hero-contact">
+      <div className='contact-us-img'>
+        <h2>"Drop Us a Message Through the Form"</h2>
+        <img src='./img/contactus.jpg' alt='contact-us-image' />
+      </div>
+      <div className='contact-us-form'>
     <form className="contact-form">
       <h2>Contact Us</h2>
       <div className="form-group">
@@ -20,7 +25,7 @@ const Contact= () => {
         </div>
       <button type="submit">Submit</button>
     </form>
-
+    </div>
     </section>
   );
 };
