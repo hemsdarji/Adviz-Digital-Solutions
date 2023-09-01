@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import { Link } from "react-router-dom";
 import { serviceCards ,ServiceCard } from "../../ServiceCard";
+import Team from "../Team/Team";
 
 
 
@@ -70,17 +71,17 @@ const Home = () => {
         ))}
       </div>
     </div>
-\
+
 
 </section>
 
 <section class="carousel">
 <div className="container text-center common-title fw-bold">
-        <h2 className="common-heading">"Visible Successes"
+        <h2 className="common-heading">Visible Successes
 </h2>
         <hr className="w-25 mx-auto " />
     </div>
-  <div className="inside-div">
+  <div className="in-img">
   <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -103,6 +104,9 @@ const Home = () => {
     </button>
   </div>
   </div>
+  <section>
+    <Team />
+  </section>
 </section>
 
 

@@ -2,7 +2,7 @@ import React from "react";
 import "./Team.css";
 
 const socialMediaPlatforms = [
-  { name: 'linkedin', url: 'https://www.linkedin.com/in/hadamatdabhi/', image: './img/linkedin.png' },
+  { name: 'linkedin', url: 'www.linkedin.com/in/hadamatdabhi', image: './img/linkedin.png' },
   { name: 'github', url: 'https://github.com/hemsdarji', image: './img/github.png' },
   { name: 'Instagram', url: '#', image: './img/insta.png' },
 ];
@@ -10,6 +10,10 @@ const socialMediaPlatforms = [
 const Team = () => {
   return (
     <section className="team">
+      <div className="container text-center common-title fw-bold">
+        <h2 className="common-heading">Team</h2>
+        <hr className="w-25 mx-auto " />
+    </div>
       <div className="team-member">
         <div className="team-member-data">
           <h2>Hadamat Dabhi</h2>
