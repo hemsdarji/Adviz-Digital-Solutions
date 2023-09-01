@@ -11,6 +11,18 @@ const Navbar = () => {
         <li className="nav-item">
         <Link to="/">Home</Link>
         </li>
+        <li className="nav-item">
+          <Link to="/Contact">Contact</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/Services">Sevices</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/PortFolio">Portfolio</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/Testimonials">Testimonials</Link>
+        </li>
         <li className="nav-item dropdown">
   <Link to="/" className="nav-link dropdown-toggle" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     About Us
@@ -21,18 +33,6 @@ const Navbar = () => {
     <li><Link to="/BCorp " className="dropdown-item">B Corp</Link></li>
   </ul>
 </li>
-        <li className="nav-item">
-          <Link to="/Services">Sevices</Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/PortFolio">Portfolio</Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/Testimonials">Testimonials</Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/Contact">Contact</Link>
-        </li>
       </ul>
     </div>
 </nav>
