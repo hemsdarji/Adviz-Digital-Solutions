@@ -19,7 +19,7 @@ const Home = () => {
             Your Success, Our Expertise <br />
             "Fueling your social success! 🚀 Unleash the power of strategic content, engagement wizardry, and trend mastery. Let's skyrocket your brand together! 🌟 #AdvizSocial"
           </p>
-          <Link to="/Contact" className="btn btn-primary">
+          <Link to="/Contact" className="btn btn-secondary ">
             Contact Us
           </Link>
         </div>
@@ -103,10 +103,11 @@ const Home = () => {
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  </div>
   <section>
     <Team />
   </section>
+  </div>
+  
 </section>
 
 

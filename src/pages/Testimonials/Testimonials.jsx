@@ -1,12 +1,13 @@
 import React from "react";
-import { ServiceCard, serviceCards } from "../../ServiceCard";
 import "./Testimonials.css";
+import ReviewCard from "../ReviewCard/ReviewCard";
+
 
 const Testimonials = () => {
   return (
     <section className=" services-section">
       <div className="container text-center common-title fw-bold">
-        <h2 className="common-heading ">Review</h2>
+        <h2 className="common-heading ">Customer Review</h2>
         <hr className="w-25 mx-auto " />
         <h5>
           "Engaging with this social media marketing agency has been a
@@ -24,6 +25,9 @@ const Testimonials = () => {
       </div>
       <div className="img-div">
         <img src="./img/social-bg.png" alt="social-bg" />
+      </div>
+      <div>
+        <ReviewCard />
       </div>
 
       {/* <div className="container mt-10">

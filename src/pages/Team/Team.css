@@ -18,7 +18,7 @@
 .team .team-member .team-member-data{
     width: 50%;
      min-height: 80vh;
-    padding: 10vh;
+    padding: 3vh;
 }
 .team-member-data h2{
     letter-spacing:8px;
@@ -72,12 +72,16 @@
 .team .team-member .team-member-data{
   width: 100%;
   min-height: 4vh;
-  padding:3vh 10vh;
+  padding:3vh 3vh;
 }
 .team .team-member .team-member-img{
   object-fit: cover;
   width: 50%;
    min-height: 30vh;
+}
+.team-member-data h2{
+  letter-spacing:8px;
+  font-size: 32px;
 }
 
 
