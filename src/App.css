@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Urbanist", sans-serif;
+
 }
 
 :root{
@@ -56,7 +57,7 @@ a{
 .bg-theme{
 
     color: var( --bs-supporting-color);
-    background-image: none!important;
+    background-image: none;
 }
 
 .fa-star{
@@ -64,11 +65,11 @@ a{
 }
 
 .nav-link{
-    color: var(--bs-main-color)!important;
+    color: var(--bs-main-color);
     font-weight: bold;
 }
 
 .nav-link:hover{
-    color: var(--secondary-color) !important;
+    color: var(--secondary-color);
 }
 

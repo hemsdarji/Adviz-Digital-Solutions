@@ -7,6 +7,12 @@ color: aliceblue;
     align-items: center;
     justify-content: center;
     padding-bottom: 140px;
+  background-image:url(./img/bgmain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    backface-visibility: unset;
+
 }
 
 .left-div{
@@ -142,6 +148,8 @@ color: aliceblue;
      display: block;
     align-items: center;
     justify-content: center;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
 }
 .carousel .in-img{
     width: 80%;
@@ -149,9 +157,10 @@ color: aliceblue;
     margin-left: auto;
     margin-right: auto;
 }
+
 .carousel-inner img {
   width: 100%;
-  height: auto;
+ min-height: 90vh;
 }
 
 .carousel {
@@ -168,4 +177,8 @@ color: aliceblue;
         width: 100%;
         min-height: 40vh;
     }
+    .carousel-inner img {
+        width: 100%;
+       min-height: 40vh;
+      }
   }

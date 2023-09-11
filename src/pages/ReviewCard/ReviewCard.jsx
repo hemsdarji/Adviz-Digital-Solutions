@@ -1,88 +1,65 @@
-import React from "react";
+import React from 'react';
+import "./ReviewCard.css";
 
 const ReviewCard = () => {
+  const reviews = [
+    {
+      imgSrc: './img/hems1.jpg',
+      title: 'Special title treatment 1',
+      designer: 'Interior designer 1',
+      text: 'With supporting text below as a natural lead-in to additional content 1.',
+    },
+    {
+      imgSrc: './img/hems1.jpg',
+      title: 'Special title treatment 2',
+      designer: 'Interior designer 2',
+      text: 'With supporting text below as a natural lead-in to additional content 2.',
+    },
+    {
+      imgSrc: './img/hems1.jpg',
+      title: 'Special title treatment 1',
+      designer: 'Interior designer 1',
+      text: 'With supporting text below as a natural lead-in to additional content 1.',
+    },
+    {
+      imgSrc: './img/hems1.jpg',
+      title: 'Special title treatment 2',
+      designer: 'Interior designer 2',
+      text: 'With supporting text below as a natural lead-in to additional content 2.',
+    },
+    {
+      imgSrc: './img/hems1.jpg',
+      title: 'Special title treatment 1',
+      designer: 'Interior designer 1',
+      text: 'With supporting text below as a natural lead-in to additional content 1.',
+    },
+    {
+      imgSrc: './img/hems1.jpg',
+      title: 'Special title treatment 2',
+      designer: 'Interior designer 2',
+      text: 'With supporting text below as a natural lead-in to additional content 2.',
+    },
+    // Add more review objects as needed
+  ];
+
   return (
-    <>
-      <div className="col-md-6">
-        <div className="card mb-6">
-          <div className="row g-0">
-            <div className="col-md-4">
-              <svg
-                className="bd-placeholder-img img-fluid rounded-start"
-                width="100%"
-                height="250"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                aria-label="Placeholder: Image"
-                preserveAspectRatio="xMidYMid slice"
-                focusable="false"
-              >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#868e96"></rect>
-                <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                  Image
-                </text>
-              </svg>
+    <div className="row card-main">
+      {reviews.map((review, index) => (
+        <div className="col-sm-6 mb-3 mb-sm-0" key={index}>
+          <div className="card">
+            <div className="card-body-left">
+              <img src={review.imgSrc} alt="" />
             </div>
-            <div className="col-md-4">
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <p className="card-text">
-                  <small class="text-body-secondary">
-                    Last updated 3 mins ago
-                  </small>
-                </p>
-              </div>
+            <div className="card-body-right">
+              <h4 className="card-title">{review.title}</h4>
+              <h6>{review.designer}</h6>
+              <p className="card-text">{review.text}</p>
             </div>
           </div>
         </div>
-        <div className="card mb-6">
-          <div className="row g-0">
-            <div className="col-md-4">
-              <svg
-                className="bd-placeholder-img img-fluid rounded-start"
-                width="100%"
-                height="250"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                aria-label="Placeholder: Image"
-                preserveAspectRatio="xMidYMid slice"
-                focusable="false"
-              >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#868e96"></rect>
-                <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                  Image
-                </text>
-              </svg>
-            </div>
-            <div className="col-md-4">
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <p className="card-text">
-                  <small class="text-body-secondary">
-                    Last updated 3 mins ago
-                  </small>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
+      ))}
+    </div>
   );
-};
+}
 
 export default ReviewCard;
-
-

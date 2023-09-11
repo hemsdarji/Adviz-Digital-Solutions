@@ -12,16 +12,16 @@ const Navbar = () => {
         <Link to="/">Home</Link>
         </li>
         <li className="nav-item">
-          <Link to="/Contact">Contact</Link>
+          <Link to="/PortFolio">Portfolio</Link>
         </li>
         <li className="nav-item">
           <Link to="/Services">Sevices</Link>
         </li>
         <li className="nav-item">
-          <Link to="/PortFolio">Portfolio</Link>
+          <Link to="/Testimonials">Testimonials</Link>
         </li>
         <li className="nav-item">
-          <Link to="/Testimonials">Testimonials</Link>
+          <Link to="/Contact">Contact</Link>
         </li>
         <li className="nav-item dropdown">
   <Link to="/" className="nav-link dropdown-toggle" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
