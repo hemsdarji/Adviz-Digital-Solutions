@@ -150,18 +150,28 @@ color: aliceblue;
     justify-content: center;
     padding-top: 4vh;
     padding-bottom: 4vh;
+
 }
 .carousel .in-img{
     width: 80%;
-    min-height: 70vh;
+    min-height: 90vh;
     margin-left: auto;
     margin-right: auto;
+   
+}
+.carousel-inner{
+    overflow: hidden;
+    object-fit: cover;
+ 
 }
 
-.carousel-inner img {
-  width: 100%;
- min-height: 90vh;
-}
+
+.carousel-item img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+ }
+
 
 .carousel {
   overflow: hidden;
