@@ -1,9 +1,8 @@
-
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--body-tertiary-color); 
+  background-color: var(--secondary-color);
   padding: 1rem;
   padding-left: 5rem;
   padding-right: 5rem;
@@ -12,7 +11,7 @@
 .navbar-brand {
   font-weight: bold;
   font-size: 1.5rem;
-  color: var(--navbar-brand-color); 
+  color: var(--navbar-brand-color);
   text-decoration: none;
 }
 
@@ -30,25 +29,21 @@
   padding: 0;
   margin: 0;
 }
+
 .gap-3 {
-  gap: 2rem!important;
+  gap: 2rem !important;
 }
+
 .nav-item a {
   font-size: 1.2rem;
   text-decoration: none;
-  color: var(--nav-link-color); 
+  color: var(--nav-link-color);
 }
 
 @media (max-width: 768px) {
 
-    .navbar-nav {
-      display: none;
-   
-    }
+  .navbar-nav {
+    display: none;
+
   }
-
-
-
-  
-  
-  
+}

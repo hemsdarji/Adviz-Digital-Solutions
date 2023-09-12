@@ -1,0 +1,12 @@
+.footer{
+    background-color: black;
+    color: white;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy-right p{
+    letter-spacing: 2px;
+}

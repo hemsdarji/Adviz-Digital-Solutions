@@ -1,46 +1,8 @@
-import React from 'react';
+import React from "react";
 import "./ReviewCard.css";
+import { reviews } from "../../Data";
 
 const ReviewCard = () => {
-  const reviews = [
-    {
-      imgSrc: './img/hems1.jpg',
-      title: 'Special title treatment 1',
-      designer: 'Interior designer 1',
-      text: 'With supporting text below as a natural lead-in to additional content 1.',
-    },
-    {
-      imgSrc: './img/hems1.jpg',
-      title: 'Special title treatment 2',
-      designer: 'Interior designer 2',
-      text: 'With supporting text below as a natural lead-in to additional content 2.',
-    },
-    {
-      imgSrc: './img/hems1.jpg',
-      title: 'Special title treatment 1',
-      designer: 'Interior designer 1',
-      text: 'With supporting text below as a natural lead-in to additional content 1.',
-    },
-    {
-      imgSrc: './img/hems1.jpg',
-      title: 'Special title treatment 2',
-      designer: 'Interior designer 2',
-      text: 'With supporting text below as a natural lead-in to additional content 2.',
-    },
-    {
-      imgSrc: './img/hems1.jpg',
-      title: 'Special title treatment 1',
-      designer: 'Interior designer 1',
-      text: 'With supporting text below as a natural lead-in to additional content 1.',
-    },
-    {
-      imgSrc: './img/hems1.jpg',
-      title: 'Special title treatment 2',
-      designer: 'Interior designer 2',
-      text: 'With supporting text below as a natural lead-in to additional content 2.',
-    },
-    // Add more review objects as needed
-  ];
 
   return (
     <div className="row card-main">
@@ -60,6 +22,6 @@ const ReviewCard = () => {
       ))}
     </div>
   );
-}
+};
 
 export default ReviewCard;

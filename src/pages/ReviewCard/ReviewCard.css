@@ -26,11 +26,11 @@
 }
 
 .card-main .card .card-body-left img {
-  height: 20vh;
-  border-radius: 10vh;
+    height: 20vh;
+    border-radius: 10vh;
 }
 
-.card-main .card .card-body-right{
+.card-main .card .card-body-right {
     width: 50%;
 
 

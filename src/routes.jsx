@@ -1,7 +1,6 @@
 import React from "react";
 import { Outlet, createBrowserRouter } from "react-router-dom";
 import Navbar from "./component/navbar/Navbar";
-import Footer from "./component/Footer";
 import Contact from "./pages/Contact/Contact";
 import Home from "./pages/Home/Home";
 import PortFolio from "./pages/PortFolio/PortFolio";
@@ -9,7 +8,8 @@ import Testimonials from "./pages/Testimonials/Testimonials";
 import Services from "./pages/Services/Services";
 import Team from "./pages/Team/Team";
 import Values from "./pages/values/Values";
-import BCorp from "./pages/B-Corp/BCorp";
+import Footer from "./component/Footer/Footer";
+import BCorp from "./pages/BCorp";
 
 
 const Layout = () => {

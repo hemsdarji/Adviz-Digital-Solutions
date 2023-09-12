@@ -1,7 +1,6 @@
-
 /* Styling for form */
 
-.hero-contact{
+.hero-contact {
   width: 60%;
   min-height: 90vh;
   display: flex;
@@ -11,6 +10,7 @@
   margin-left: auto;
   margin-right: auto;
 }
+
 .hero-contact .contact-us-img {
   width: 40%;
   min-height: 60vh;
@@ -20,14 +20,15 @@
   justify-content: center;
   align-items: center;
 }
-.hero-contact .contact-us-img img{
+
+.hero-contact .contact-us-img img {
   width: 500px;
   height: 500px;
 }
 
-.contact-us-form{
+.contact-us-form {
   width: 60%;
- min-height:60vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -74,12 +75,13 @@
   .contact-form {
     max-width: 100%;
   }
- 
+
   .hero-contact .contact-us-img {
-   display: none;
+    display: none;
   }
-  .contact-us-form{
+
+  .contact-us-form {
     width: 100%;
   }
 
-} 
+}
